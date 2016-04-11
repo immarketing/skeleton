@@ -1,21 +1,18 @@
 {
-    "name": ":vendor/:package_name",
-    "type": "library",
-    "description": ":package_description",
-    "keywords": [
-        ":vendor",
-        ":package_name"
-    ],
-    "homepage": "https://github.com/:vendor/:package_name",
-    "license": "MIT",
+    "name": "immarketing/skeleton",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
-            "role": "Developer"
+            "name": "immarketing",
+            "email": "immarketing@mail.ru"
         }
     ],
+    "description": "_none_",
+    "keywords": [
+        "algo",
+        "sceletontest"
+    ],
+    "homepage": "https://github.com/algo/sceletontest",
+    "license": "MIT",
     "require": {
         "php" : "~5.5|~7.0"
     },
@@ -26,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "immarketing\\skeleton\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "immarketing\\skeleton\\": "tests"
         }
     },
     "scripts": {
