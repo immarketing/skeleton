@@ -1,6 +1,7 @@
 <?php
 
-namespace League\Skeleton;
+//namespace League\Skeleton;
+namespace Swader\Diffbot;
 
 class SkeletonClass
 {

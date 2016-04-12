@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "immarketing\\skeleton\\": "src"
+            "Swader\\Diffbot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "immarketing\\skeleton\\": "tests"
+            "Swader\\Diffbot\\Test\\": "tests"
         }
     },
     "scripts": {
